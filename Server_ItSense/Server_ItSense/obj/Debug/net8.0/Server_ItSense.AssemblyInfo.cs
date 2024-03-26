@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Server_ItSense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eb9f600b3539377b17e7cf149d19513d5b0fb59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77e982bf479cb3c6edf1b469e1815693c27f3046")]
 [assembly: System.Reflection.AssemblyProductAttribute("Server_ItSense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Server_ItSense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

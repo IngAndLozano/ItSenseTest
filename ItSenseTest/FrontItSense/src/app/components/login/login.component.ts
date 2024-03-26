@@ -21,6 +21,7 @@ export class LoginComponent {
   LogIn() {
     this.apiService.login(this.credentials).subscribe(response => {
       const token = response.token;
+      console.log(token)
       localStorage.setItem('token', token);
       this.router.navigate(['Inventory']);
     }, error => {

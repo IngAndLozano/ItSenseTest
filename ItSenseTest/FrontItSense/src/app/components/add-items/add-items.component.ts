@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ApiServiceService } from 'src/app/service/api-service.service';
@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
   templateUrl: './add-items.component.html',
   styleUrls: ['./add-items.component.css']
 })
-export class AddItemsComponent {
+export class AddItemsComponent implements OnInit {
   itemsForm: FormGroup;
   type_manufracture: string[] = ['Elaborado a mano', 'Elaborado a mano y máquina'];
 
@@ -23,6 +23,12 @@ export class AddItemsComponent {
         this.createFormItem()
       ]),
     });
+  }
+
+  ngOnInit(): void {
+    if(window.localStorage.getItem('token') == null){
+      this.showAlertErrorAuth();
+    }
   }
 
   get ItemsArray() {
@@ -107,7 +113,7 @@ export class AddItemsComponent {
     Swal.fire({
       icon: 'error',
       title: 'ERROR',
-      text: 'Hubo un error al crear el Usuario.',
+      text: 'Hubo un error al crear el Item.',
     });
   }
 
@@ -119,4 +125,13 @@ export class AddItemsComponent {
     });
     this.router.navigate(['/Inventory']);
   }
+
+  showAlertErrorAuth() {
+    Swal.fire({
+      icon: 'error',
+      title: 'ERROR',
+      text: 'No tienes permiso para acceder a este servicio',
+    });
+  }
 }
+

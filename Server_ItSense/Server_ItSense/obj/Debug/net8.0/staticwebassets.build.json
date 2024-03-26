@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KIrneQXrx1glve5iwPELBf1vYUkVdbZfcg9K9h4T69I=",
+  "Hash": "wPjgNeSYEf6TMUQnei4ATp4BZbIJqum3+U3/YFSQNmM=",
   "Source": "Server_ItSense",
   "BasePath": "_content/Server_ItSense",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -25,13 +25,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -44,13 +44,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\SAB Technology\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.3\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\andre\\Documents\\Proyectos\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Server_ItSense.styles.css",
+      "Identity": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Server_ItSense.styles.css",
       "SourceId": "Server_ItSense",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\andre\\Documents\\Proyectos\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Server_ItSense",
       "RelativePath": "Server_ItSense.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\andre\\Documents\\Proyectos\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Server_ItSense.styles.css"
+      "OriginalItemSpec": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Server_ItSense.styles.css"
     }
   ]
 }

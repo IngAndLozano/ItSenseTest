@@ -30,17 +30,21 @@ export class InventoryComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   
   ngOnInit() {
-    this.ReadProducts();
-    this.displayedColumns = [
-      'id',
-      'nombre',
-      'estado',
-      'defecto',
-      'tipoElaboracion',
-      'fecha_ingreso',
-      'fecha_salida',
-      'Acciones'
-    ];
+    if(window.localStorage.getItem('token') != null){
+      this.ReadProducts();
+      this.displayedColumns = [
+        'id',
+        'nombre',
+        'estado',
+        'defecto',
+        'tipoElaboracion',
+        'fecha_ingreso',
+        'fecha_salida',
+        'Acciones'
+      ];
+    } else {
+      this.showAlertErrorAuth();
+    }
   }
   
   ngAfterViewInit() {
@@ -68,7 +72,8 @@ export class InventoryComponent implements OnInit {
         this.dataSource.paginator = this.paginator;
       },
       (error) => {
-        console.error('Error al obtener equipos:', error);
+        this.showAlertErrorAuth();
+        console.error('Error al obtener el inventario:', error);
       }
     );
   }
@@ -90,7 +95,8 @@ export class InventoryComponent implements OnInit {
         this.dataSource.data = this.data;
       },
       (error) => {
-        console.error('Error al obtener equipos:', error);
+        this.showAlertErrorAuth();
+        console.error('Error al obtener el inventario:', error);
       }
     );
   }
@@ -137,7 +143,15 @@ export class InventoryComponent implements OnInit {
     Swal.fire({
       icon: 'error',
       title: 'ERROR',
-      text: 'Hubo un error al crear el Usuario.',
+      text: 'Hubo un error al crear el registro de salida.',
+    });
+  }
+  
+  showAlertErrorAuth() {
+    Swal.fire({
+      icon: 'error',
+      title: 'ERROR',
+      text: 'No tienes permiso para ver la información',
     });
   }
 

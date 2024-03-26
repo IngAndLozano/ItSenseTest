@@ -17,7 +17,6 @@ public partial class ConnectionContext : DbContext
 
     public virtual DbSet<Producto> Productos { get; set; }
 
-    public virtual DbSet<TokenRegistro> TokenRegistros { get; set; }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
@@ -44,23 +43,6 @@ public partial class ConnectionContext : DbContext
                     .HasColumnName("fecha_salida");
             entity.Property(e => e.FechaIngreso)
                     .HasColumnName("fecha_ingreso");
-        });
-
-        modelBuilder.Entity<TokenRegistro>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("token_registros_pkey");
-
-            entity.ToTable("token_registros");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.FechaExpiracion)
-                .HasColumnType("timestamp without time zone")
-                .HasColumnName("fecha_expiracion");
-            entity.Property(e => e.Token)
-                .HasMaxLength(500)
-                .HasColumnName("token");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
-
         });
 
         modelBuilder.Entity<Usuario>(entity =>

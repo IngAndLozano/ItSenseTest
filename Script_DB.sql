@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-=======
 -- Database: ItSense_DB
-
->>>>>>> 7ace503b66f6ab75d4440057520adcad154b1d7f
--- DROP DATABASE IF EXISTS "ItSense_DB";
-
 CREATE DATABASE "ItSense_DB"
     WITH
     OWNER = postgres
@@ -25,12 +19,11 @@ CREATE TABLE usuarios (
 -- Creación de la tabla de productos
 CREATE TABLE productos (
     id SERIAL PRIMARY KEY,
-<<<<<<< HEAD
     tipo_elaboracion VARCHAR(50),
     nombre VARCHAR(100),
     defecto BOOLEAN,
     estado BOOLEAN,
-    fecha_ingreso TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    fecha_ingreso  DATE,
     fecha_salida DATE
 );
 
@@ -38,25 +31,11 @@ CREATE TABLE productos (
 INSERT INTO usuarios (username, password_hash) VALUES ('admin', '1234');
 
 -- Poblado inicial tabla productos
-INSERT INTO productos (tipo_elaboracion, nombre, defecto, estado, fecha_ingreso, fecha_salida)
+INSERT INTO productos (tipo_elaboracion, nombre, fecha_ingreso, estado, defecto, fecha_salida)
 VALUES
-    ('Elaborado a mano y máquina', 'Vestido', true, true, '2024-03-24 21:51:38.663062-05', NULL),
-    ('Elaborado a mano', 'Sudadera', false, true, '2024-03-24 21:51:38.663062-05', NULL),
-    ('Elaborado a mano', 'Camiseta', false, false, '2024-03-24 21:51:38.663062-05', NULL),
-    ('Elaborado a mano y máquina', 'Pantalón', false, false, '2024-03-24 21:51:38.663062-05', NULL),
-    ('Elaborado a mano', 'Buso', true, true, '-infinity', NULL);
-=======
-    tipo_elaboracion VARCHAR(50) NOT NULL,
-    nombre VARCHAR(100) NOT NULL,
-    estado VARCHAR(50) NOT NULL
-);
+    ('Elaborado a mano y máquina', 'Vestido', '2024-03-24', true, true, NULL),
+    ('Elaborado a mano', 'Sudadera', '2024-03-24', true, true, NULL),
+    ('Elaborado a mano', 'Camiseta', '2024-03-24', true, false, NULL),
+    ('Elaborado a mano y máquina', 'Pantalón', '2024-03-24', true, false, NULL), -- Aquí corregido
+    ('Elaborado a mano', 'Buso', '2024-03-24', true, true, NULL);
 
--- Creación de la tabla de registro de autenticación para tokens JWT
-CREATE TABLE token_registros (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER REFERENCES usuarios(id) ON DELETE CASCADE,
-    token VARCHAR(500) NOT NULL,
-    fecha_expiracion TIMESTAMP NOT NULL
-);
-
->>>>>>> 7ace503b66f6ab75d4440057520adcad154b1d7f

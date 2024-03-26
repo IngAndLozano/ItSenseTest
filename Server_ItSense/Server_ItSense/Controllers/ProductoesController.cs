@@ -123,7 +123,8 @@ namespace Server_ItSense.Controllers
         {
             foreach (var producto in productos)
             {
-                producto.Defecto = true;
+                producto.Estado = true;
+                producto.FechaIngreso = DateTime.UtcNow;
             }
 
             _context.Productos.AddRange(productos);
