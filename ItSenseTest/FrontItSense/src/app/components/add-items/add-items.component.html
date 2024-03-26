@@ -1,0 +1,59 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+    <div class="col-md-10">
+        <form [formGroup]="itemsForm">
+            <fieldset>
+                <div formArrayName="ItemsArray">
+                    <div *ngFor="let item of ItemsArray.controls; let i = index" [formGroupName]="i">
+                        <div class="col-md-12 p-3">
+                            <label class="form-label">Nombre del Producto</label>
+                            <input type="text" class="form-control" formControlName="nombre" />
+                        </div>
+                        <div class="col-md-12 p-3">
+                            <label class="input-group">Tipo Elaboración</label>
+                            <select class="form-select" formControlName="tipoElaboracion">
+                                <option value="" disabled selected>
+                                    Selecciona una opción
+                                </option>
+                                <option *ngFor="let type of type_manufracture" [value]="type">
+                                    {{ type }}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 p-3">
+                            <label class="input-group">¿Cuenta con algún defecto?</label>
+                            <select class="form-select" formControlName="defecto">
+                                <option value="" disabled selected> Selecciona una opción </option>
+                                <option [ngValue]="true">Si</option>
+                                <option [ngValue]="false">No</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-3">
+                                <button (click)="eliminarFormulario(i)" class="btn btn-light">
+                                    <i class="fa-solid fa-minus"></i>Eliminar Formulario
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button (click)="agregarFormulario()" class="btn btn-light">
+                            <i class="fa-solid fa-plus"></i>Agregar Formulario
+                        </button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div class="addButton-container">
+    <div class=" addButton col-md-6">
+        <button class="Button btn btn-primary" (click)="showAlertGetOut()">Volver</button>
+    </div>
+    <div class="addButton col-md-6">
+        <button class="Button btn btn-primary" (click)="showQuestionAlert()">Agregar Items</button>
+    </div>
+</div>

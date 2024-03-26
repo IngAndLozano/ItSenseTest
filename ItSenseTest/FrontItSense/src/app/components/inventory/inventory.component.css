@@ -1,0 +1,32 @@
+.table-container {
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.addButton-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.btnAction {
+    border-radius: 50%;
+}
+
+.addButton {
+    background-color: rgb(224, 120, 0);
+    border: none;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+}

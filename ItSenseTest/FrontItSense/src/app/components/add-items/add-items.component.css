@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.addButton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: auto;
+    margin-bottom: 10%;
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: auto;
+}
+
+.Button {
+    background-color: rgb(224, 120, 0);
+    border: none;
+}

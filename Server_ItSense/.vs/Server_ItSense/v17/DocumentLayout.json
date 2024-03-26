@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|c:\\users\\sab technology\\source\\repos\\server_itsense\\server_itsense\\models\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|solutionrelative:server_itsense\\models\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|c:\\users\\sab technology\\source\\repos\\server_itsense\\server_itsense\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|solutionrelative:server_itsense\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|c:\\users\\sab technology\\source\\repos\\server_itsense\\server_itsense\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|solutionrelative:server_itsense\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|c:\\users\\sab technology\\source\\repos\\server_itsense\\server_itsense\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|solutionrelative:server_itsense\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|c:\\users\\sab technology\\source\\repos\\server_itsense\\server_itsense\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8D425B-C4B5-4BFC-9820-F9279C53CD08}|Server_ItSense\\Server_ItSense.csproj|solutionrelative:server_itsense\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Server_ItSense\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Server_ItSense\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\appsettings.json",
+              "RelativeDocumentMoniker": "Server_ItSense\\appsettings.json",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\appsettings.json",
+              "RelativeToolTip": "Server_ItSense\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-22T17:33:39.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionContext.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\ConnectionContext.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Models\\ConnectionContext.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\ConnectionContext.cs",
+              "RelativeToolTip": "Server_ItSense\\Models\\ConnectionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:14:18.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Program.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Program.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Program.cs",
+              "RelativeToolTip": "Server_ItSense\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:13:10.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "Server_ItSense\\Controllers\\ProductoesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:10:36.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Server_ItSense\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:09:59.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Producto.cs",
+              "RelativeToolTip": "Server_ItSense\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:00:46.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Server_ItSense\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\SAB Technology\\source\\repos\\Server_ItSense\\Server_ItSense\\Models\\Usuario.cs",
+              "RelativeToolTip": "Server_ItSense\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T17:00:44.79Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="card text-center shadow">
+    <div class="card-body p-2">
+      <div class="col-12 mt-2">
+        <img
+          src="https://www.greatplacetowork.com.co/images/CompaniesCertification/Fotos/1ec7940e-f38d-4738-94cc-3cacf8108e38.png"
+          height="90vh" title="¡Bienvenido!">
+      </div>
+      <div class="col-12 mt-2 mb-5">
+        <h3>Iniciar Sesión</h3>
+      </div>
+      <input class="form-control" type="email" placeholder="Correo" [(ngModel)]="credentials.username" name="email">
+      <div class="input-group">
+        <input type="password" class="form-control" placeholder="Contraseña" [(ngModel)]="credentials.passwordHash" name="password" #passwordInput
+          required>
+        <button class="btn btn-light" type="button" (click)="togglePasswordVisibility(passwordInput)">
+          <div *ngIf="passwordVisible==false; else otherIcon">
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+          <ng-template #otherIcon>
+            <i class="fa-regular fa-eye"></i>
+          </ng-template>
+        </button>
+      </div>
+
+      <button class="btn btn-primary btn-block mt-3 mb-3" style="background-color: rgb(224, 120, 0); border: none"
+        (click)="LogIn()">Iniciar Sesión</button>
+    </div>
+  </div>
+</div>

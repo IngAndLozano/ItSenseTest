@@ -1,0 +1,19 @@
+.container {
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+}
+
+.form-control {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.btn {
+  border-color: rgb(214, 214, 214);
+  margin-top: 2%;
+  height: 10%;
+}
