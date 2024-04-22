@@ -10,7 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -31,23 +30,22 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+// Aquí define la cadena de conexión para SQL Server
+var connectionString = builder.Configuration.GetConnectionString("SqlServerConnection");
 builder.Services.AddDbContext<ConnectionContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseSqlServer(connectionString)); // Asegúrate de tener las referencias necesarias y la directiva using correspondiente
 
-builder.Services.AddScoped<IUserService, UserService>(); 
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IJwtService>(provider => new JwtService(jwtSettings["SecretKey"]));
 
-// Add services to the container.
+// Agrega otros servicios al contenedor
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -64,7 +62,6 @@ app.UseCors(builder =>
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 app.MapControllers();

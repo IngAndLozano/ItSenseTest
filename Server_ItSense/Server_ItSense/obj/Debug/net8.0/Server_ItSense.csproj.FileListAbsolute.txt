@@ -741,3 +741,14 @@ C:\Users\SAB Technology\Documents\Desarrollo\ItSenseTest\Server_ItSense\Server_I
 C:\Users\SAB Technology\Documents\Desarrollo\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_I.4FFE5E8C.Up2Date
 C:\Users\SAB Technology\Documents\Desarrollo\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.genruntimeconfig.cache
 C:\Users\SAB Technology\Documents\Desarrollo\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\ref\Server_ItSense.dll
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.AssemblyInfo.cs
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.sourcelink.json
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.dll
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\refint\Server_ItSense.dll
+C:\Users\andre\Desktop\ItSenseTest\Server_ItSense\Server_ItSense\obj\Debug\net8.0\Server_ItSense.pdb

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj": {}
+    "C:\\Users\\andre\\Desktop\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj": {
+    "C:\\Users\\andre\\Desktop\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj",
         "projectName": "Server_ItSense",
-        "projectPath": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj",
-        "packagesPath": "C:\\Users\\SAB Technology\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAB Technology\\Documents\\Desarrollo\\ItSenseTest\\Server_ItSense\\Server_ItSense\\obj\\",
+        "projectPath": "C:\\Users\\andre\\Desktop\\ItSenseTest\\Server_ItSense\\Server_ItSense\\Server_ItSense.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Desktop\\ItSenseTest\\Server_ItSense\\Server_ItSense\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SAB Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -105,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
